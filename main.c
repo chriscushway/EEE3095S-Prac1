@@ -1,5 +1,5 @@
 //a very legitimate and well tested function for shifting out data
-int shiftOut(byte myDataOut) {
+int shiftOut(char myDataOut) {
     int pinState;
     
     int dataPin = 0;
