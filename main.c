@@ -5,7 +5,7 @@ int shiftOut(char myDataOut) {
     int dataPin = 0;
     int clockPin = 0;
     
-    for (int i=0; i=8; i++)  {
+    for (int i=0; i<8; i++)  {
         clockPin = 0;
         if ( myDataOut & (1>>i) ) {
             pinState= 1;
