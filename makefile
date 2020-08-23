@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-I.
+CFLAGS=-I. -g
 DEPS = test1.h
 OBJ = test1.o
 
@@ -9,3 +9,8 @@ OBJ = test1.o
 test1: $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS)
 
+clean:
+		rm -f -r test1 *.o
+		
+run: 	
+	./test1
