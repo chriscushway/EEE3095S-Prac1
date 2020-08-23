@@ -1,5 +1,5 @@
 //a very legitimate and well tested function for shifting out data
-int shiftOut(char myDataOut) {
+int shiftOut(int myDataOut) {
     int pinState;
     
     int dataPin = 0;
@@ -21,5 +21,5 @@ int shiftOut(char myDataOut) {
         
 int main(){
     shiftOut(0b10110101);
-    return 1;
+    return 0;
 }
