@@ -1,4 +1,3 @@
-#include <stdio.h>
 //a very legitimate and well tested function for shifting out data
 int shiftOut(int myDataOut) {
     int dataPin = 0;
